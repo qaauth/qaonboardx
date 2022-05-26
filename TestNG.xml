@@ -1,0 +1,36 @@
+
+<suite name="OnBoardX" preserve-order="true" thread-count="1"
+	verbose="10">
+	<listeners>
+		<listener class-name="com.onboardx.utilities.Reporting" />
+	</listeners>
+
+	<test name="OnBoardX1">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.onboardx.testcases.TC_OnBoardXLoginPage_01" />
+		</classes>
+	</test> 
+	
+	<!-- <test name="OnBoardX2">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.onboardx.testcases.TC_CasePendingSubmission_02" />
+		</classes>
+	</test>  -->
+	
+	<!-- <test name="OnBoardX3">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.onboardx.testcases.TC_InitiateCaseIndividually_03" />
+		</classes>
+	</test> -->
+	
+	<!-- <test name="OnBoardX4">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.onboardx.testcases.TC_CaseCompletion_04" />
+		</classes>
+	</test>  --> 
+
+</suite>

@@ -1,0 +1,15 @@
+com/onboardx/pageobject/PendingSubmissionSummary.class
+com/onboardx/testcases/TC_CasePendingSubmission_02.class
+com/onboardx/pageobject/VendorEmailVerification.class
+com/onboardx/pageobject/CaseCompletion.class
+com/onboardx/testcases/BaseClass.class
+com/onboardx/utilities/XLUtils.class
+com/onboardx/pageobject/OnBoardXLoginPage.class
+com/onboardx/testcases/TC_OnBoardXLoginPage_01.class
+com/onboardx/testcases/TC_InitiateCaseIndividually_03.class
+com/onboardx/utilities/RandomStrings.class
+com/onboardx/utilities/ReadConfig.class
+com/onboardx/utilities/Reporting.class
+com/onboardx/pageobject/InitiateCaseIndividually.class
+com/onboardx/utilities/JavaScriptManuplator.class
+com/onboardx/testcases/TC_CaseCompletion_04.class

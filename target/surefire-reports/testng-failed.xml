@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [OnBoardX]">
+  <listeners>
+    <listener class-name="com.onboardx.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="OnBoardX1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.onboardx.testcases.TC_OnBoardXLoginPage_01">
+        <methods>
+          <include name="verifyJsplLoginDetails"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.onboardx.testcases.TC_OnBoardXLoginPage_01 -->
+    </classes>
+  </test> <!-- OnBoardX1(failed) -->
+</suite> <!-- Failed suite [OnBoardX] -->
